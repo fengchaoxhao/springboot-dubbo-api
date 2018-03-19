@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 设置父项目坐标进行继承 -->
     <parent>
         <groupId>com.fengchaoxhao</groupId>
         <artifactId>springboot-dubbo</artifactId>
@@ -12,5 +13,6 @@
     </parent>
 
     <artifactId>springboot-dubbo-api</artifactId>
+    <packaging>jar</packaging>
 
 </project>
